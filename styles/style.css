@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07081A;
+}
+
+header {
+    border-bottom: 1px solid #261C51;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0 14px 0;
+    max-width: 1040px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navb ul,
+li {
+    display: flex;
+    gap: 16px;
+}
+
+.list-item {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.navb_home {
+    color: #B968DE;
+}
+
+.profilelogo_wrap {
+    border-radius: 8px;
+    background: #9100D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+/* main */
+
+.mainsection {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    gap: 32px;
+}
+
+.maintitle_wrap {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.maintitle {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.maindescription_wrap {
+    color: #C0C0C0;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.button_wrap {
+    border-radius: 8px;
+    background: #9100D3;
+    border: none;
+    padding: 12px 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.company_logos {
+    padding: 0px 72px 24px 72px;
+    gap: 90px;
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* cards */
+
+.card_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    max-width: 1040px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 304px;
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card_title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card_description {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* footer */
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px;
+    margin-top: 88px;
+    border-top: 1px solid #261C51;
+}
+
+.footer_content {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer_logos {
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
