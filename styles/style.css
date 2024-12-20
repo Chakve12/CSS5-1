@@ -8,6 +8,10 @@ body {
     background-color: #07081A;
 }
 
+main {
+    padding-bottom: 88px;
+}
+
 header {
     border-bottom: 1px solid #261C51;
 }
@@ -163,7 +167,6 @@ li {
     display: flex;
     justify-content: center;
     padding: 20px 200px;
-    margin-top: 88px;
     border-top: 1px solid #261C51;
 }
 
