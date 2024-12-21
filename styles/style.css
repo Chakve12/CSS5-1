@@ -123,6 +123,9 @@ li {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.company_logos_wrap {
     cursor: cell;
 }
 
