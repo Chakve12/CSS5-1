@@ -16,6 +16,10 @@ header {
     border-bottom: 1px solid #261C51;
 }
 
+.main_logo {
+    cursor: cell;
+}
+
 .main_content {
     display: flex;
     flex-direction: column;
@@ -44,6 +48,7 @@ li {
     font-size: 16px;
     color: #FFF;
     font-weight: 500;
+    cursor: cell;
 }
 
 .navb_home {
@@ -57,6 +62,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 4px;
+    cursor: cell;
 }
 
 /* main */
@@ -102,7 +108,7 @@ li {
     border: none;
     padding: 12px 24px;
     color: #FFF;
-    cursor: pointer;
+    cursor: cell;
 }
 
 .section {
@@ -117,6 +123,7 @@ li {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    cursor: cell;
 }
 
 /* cards */
@@ -176,10 +183,15 @@ li {
     max-width: 1040px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer_logos {
     gap: 24px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer_logos_wrap {
+    cursor: cell;
 }
